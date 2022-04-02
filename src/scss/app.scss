@@ -1,0 +1,25 @@
+@import "layout";
+
+@font-face {
+    font-weight: 400;
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: Roboto;
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+
+body {
+    @include body-basic;
+}
+
+h1 {
+    @include h1-desct;
+}
+
+h2 {
+    @include h2-desct;
+}
